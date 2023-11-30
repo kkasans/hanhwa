@@ -373,7 +373,7 @@ a img {border:none;}
 #wrap section.me .list>ul>li h3 {
     position: relative;
     margin-top: 20px;
-    /* margin-bottom: 20px; */
+    margin-bottom: 20px;
     font-size: 18px;
 }
 #wrap section.me .list>ul>li h3>span {
