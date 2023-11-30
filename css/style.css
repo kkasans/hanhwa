@@ -348,111 +348,33 @@ a img {border:none;}
     background-color: #f86010;
 }
 /* ====================== me ======================== */
-#wrap section.me {
-    width: 100%;
-    background: url("../images/me.jpg")no-repeat center/cover;
-    position: relative;
-    padding: 80px 0;
-    margin-bottom: 150px;
-    min-width: 1400px;
-}
-#wrap section.me .list {
-    width: 1400px;
-    margin: 50px auto;
-    border-top: 2px solid #000;
-}
-#wrap section.me .list>ul {
-    padding-left: 30px;
-}
-#wrap section.me .list>ul>li {
-    padding: 30px 30px 30px 10px; /* 상오하왼 */
-}
-#wrap section.me .list>ul>li:nth-child(1) {
-    border-bottom: 1px solid #ddd;
-}
-#wrap section.me .list>ul>li h3 {
-    position: relative;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 18px;
-}
-#wrap section.me .list>ul>li h3>span {
-    color: #ff8342;
-    position: absolute;
-    left: -25px;
-}
-#wrap section.me .list>ul>li>p {
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-#wrap section.me .list>ul>li>a.more {
-    display: block;
-    font-weight: bold;
-    position: relative;
-    font-size: 16px;
-}
+#wrap section.me { width: 100%; background: url("../images/me.jpg")no-repeat center/cover;
+    position: relative; padding: 80px 0; margin-bottom: 150px; 
+   min-width: 1400px; } 
+#wrap section.me .list { width: 1400px; margin: 50px auto; border-top: 2px solid #000; } 
+#wrap section.me .list>ul { padding-left: 30px; } 
+#wrap section.me .list>ul>li { padding: 30px 30px 30px 10px; /* 상,오,하,왼 */}
+#wrap section.me .list>ul>li:nth-child(1) { border-bottom: 1px solid #ddd; } 
+#wrap section.me .list>ul>li h3 { position: relative; margin-top: 20px; margin-bottom: 20px; font-size: 18px; } 
+/* 제목 앞의 아이콘들 */
+#wrap section.me .list>ul>li h3>span { color: #ff8342; position: absolute; left: -25px; } 
+#wrap section.me .list>ul>li>p { line-height: 1.6; margin-bottom: 20px; } 
+#wrap section.me .list>ul>li>a.more { display: block; font-weight: bold; position: relative; font-size: 16px; } 
 /* 화살표 아이콘 */
-#wrap section.me .list>ul>li>a.more span {
-    position: absolute;
-    top: 3px;
-    margin-left: 5px;
-    font-size: 14px;
-    color: #ff8342;
-}
-#wrap section.me .list>ul>li>a.more:hover {
-    opacity: 0.7;
-}
-#wrap section.me .list>ul>li>a.more:hover span i{
-    opacity: 0.7;
-}
-
+#wrap section.me .list>ul>li>a.more span { position: absolute; top: 3px; margin-left: 5px; font-size: 14px; color: #ff8342; } 
+#wrap section.me .list>ul>li>a.more:hover { opacity: 0.7; } 
+#wrap section.me .list>ul>li>a.more:hover span i { opacity: 0.7; } 
 /* 인재상 상세 리스트 */
-#wrap section.me .list ul.in {
-    margin-bottom: 30px;
-}
-#wrap section.me .list ul.in li {
-    margin-bottom: 10px;
-    overflow: hidden;
-}
-#wrap section.me .list ul.in li em {
-    float: left;
-    width: 12%;
-}
-#wrap section.me .list ul.in li p {
-    float: left;
-    width: 88%;
-    position: relative;
-}
-#wrap section.me .list ul.in li p::before {
-    content: '';
-    position: absolute;
-    top: 10px;
-    left: -40px;
-    width: 4px;
-    height: 4px;
-    background-color: #ff8342;
-}
-
+#wrap section.me .list ul.in { margin-bottom: 30px; } 
+#wrap section.me .list ul.in li { margin-bottom: 10px; overflow: hidden; } 
+#wrap section.me .list ul.in li em { float: left; width: 12%; } 
+#wrap section.me .list ul.in li p { float: left; width: 88%; position: relative; } 
+#wrap section.me .list ul.in li p::before { content: ''; position: absolute; top: 10px; left: -40px; width: 4px; height: 4px; background-color: #ff8342; } 
 /* 한화인 채용사이트 버튼 */
-#wrap section.me .button {
-    position: absolute;
-    left: 50%;
-    top: 750px;
-    transform: translate(-50%, -50%);
-}
-#wrap section.me .button a {
-    display: block;
-    background-color: #ff8342;
-    padding: 7px 30px;
-    border-radius: 50px;
-    text-align: center;
-    color: #fff;
-    transition: .5s;
-}
+#wrap section.me .button { position: absolute; left: 50%; top: 750px; transform: translate(-50%, -50%); } 
+#wrap section.me .button a { display: block; background-color: #ff8342; padding: 7px 30px; border-radius: 50px; text-align: center; color: #fff; transition: .5s; } 
 #wrap section.me .button a:hover,
-#wrap section.me .button a:focus {
-    background-color: #f86010;
-}
+#wrap section.me .button a:focus { background-color: #f86010; } 
 /* ====================== sns ======================== */
 #wrap section.sns {
     width: 100%;
